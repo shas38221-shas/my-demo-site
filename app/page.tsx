@@ -115,7 +115,7 @@ export default function Home() {
   </h2>
 
   <p className="mb-2">
-    📞 +91 9999999999
+    📞 +91 9980406040
   </p>
 
   <p className="mb-2">
