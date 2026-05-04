@@ -4,27 +4,27 @@ export default function Home() {
 
       {/* Navbar */}
       <nav className="flex items-center justify-between px-10 py-6 border-b border-gray-800">
-        <h1 className="text-2xl font-bold text-green-400">
+        <h1 className="text-3xl font-bold text-green-400">
           Puttabasappa
         </h1>
 
         <div className="flex gap-6 text-lg">
           <a href="#" className="hover:text-green-400">Home</a>
-          <a href="#" className="hover:text-green-400">Products</a>
+          <a href="#products" className="hover:text-green-400">Products</a>
           <a href="#" className="hover:text-green-400">About</a>
           <a href="#" className="hover:text-green-400">Contact</a>
         </div>
       </nav>
 
-      {/* Hero Section */}
-      <section className="flex flex-col items-center justify-center text-center mt-32 px-6">
+      {/* Hero */}
+      <section className="flex flex-col items-center justify-center text-center mt-28 px-6">
 
         <h1 className="text-7xl font-extrabold mb-6">
           Healthy Ragi Products 🌾
         </h1>
 
         <p className="text-2xl text-gray-300 max-w-3xl">
-          Premium quality ragi ambli powder and healthy traditional food products.
+          Premium quality traditional health products made with natural ingredients.
         </p>
 
         <div className="flex gap-6 mt-10">
@@ -40,6 +40,70 @@ export default function Home() {
           >
             WhatsApp Us
           </a>
+
+        </div>
+      </section>
+
+      {/* Products Section */}
+      <section
+        id="products"
+        className="mt-40 px-10 pb-24"
+      >
+
+        <h2 className="text-5xl font-bold text-center mb-16">
+          Our Products
+        </h2>
+
+        <div className="grid md:grid-cols-3 gap-10">
+
+          {/* Product Card */}
+          <div className="bg-gray-900 p-8 rounded-3xl border border-gray-800 hover:border-green-500 transition">
+
+            <h3 className="text-3xl font-bold mb-4">
+              Ragi Ambli Powder
+            </h3>
+
+            <p className="text-gray-400 mb-6">
+              Healthy instant ragi drink mix packed with nutrition and energy.
+            </p>
+
+            <button className="bg-green-500 hover:bg-green-600 px-6 py-3 rounded-xl font-semibold">
+              Order Now
+            </button>
+
+          </div>
+
+          <div className="bg-gray-900 p-8 rounded-3xl border border-gray-800 hover:border-green-500 transition">
+
+            <h3 className="text-3xl font-bold mb-4">
+              Millet Health Mix
+            </h3>
+
+            <p className="text-gray-400 mb-6">
+              Traditional millet mix for healthy breakfast and nutrition.
+            </p>
+
+            <button className="bg-green-500 hover:bg-green-600 px-6 py-3 rounded-xl font-semibold">
+              Order Now
+            </button>
+
+          </div>
+
+          <div className="bg-gray-900 p-8 rounded-3xl border border-gray-800 hover:border-green-500 transition">
+
+            <h3 className="text-3xl font-bold mb-4">
+              Organic Ragi Flour
+            </h3>
+
+            <p className="text-gray-400 mb-6">
+              Natural and fresh organic ragi flour for daily healthy cooking.
+            </p>
+
+            <button className="bg-green-500 hover:bg-green-600 px-6 py-3 rounded-xl font-semibold">
+              Order Now
+            </button>
+
+          </div>
 
         </div>
       </section>
