@@ -20,11 +20,11 @@ export default function Home() {
       <section className="flex flex-col items-center justify-center text-center mt-28 px-6">
 
         <h1 className="text-7xl font-extrabold mb-6">
-          Healthy Ragi Products 🌾
+          ಪುಟ್ಟಬಸಪ್ಪ 🌾
         </h1>
 
         <p className="text-2xl text-gray-300 max-w-3xl">
-          Premium quality traditional health products made with natural ingredients.
+          Traditional healthy ragi and millet products made with purity, nutrition, and trust.
         </p>
 
         <div className="flex gap-6 mt-10">
@@ -107,7 +107,26 @@ export default function Home() {
 
         </div>
       </section>
+{/* Footer */}
+<footer className="border-t border-gray-800 py-10 text-center text-gray-400">
 
+  <h2 className="text-3xl font-bold text-green-400 mb-4">
+    Contact Us
+  </h2>
+
+  <p className="mb-2">
+    📞 +91 9999999999
+  </p>
+
+  <p className="mb-2">
+    📍 Karnataka, India
+  </p>
+
+  <p>
+    © 2026 Puttabasappa. All rights reserved.
+  </p>
+
+</footer>
     </main>
   );
 }
